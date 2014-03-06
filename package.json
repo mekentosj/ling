@@ -1,0 +1,25 @@
+{
+  "name": "ling",
+  "version": "0.0.1",
+  "description": "A command-line Gherkin linter.",
+  "keywords": [
+    "cucumber",
+    "gherkin",
+    "testing"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber.js"
+  },
+  "author": "Alex R. Young",
+  "license": "MIT",
+  "dependencies": {
+    "gherkin": "^2.12.2",
+    "commander": "^2.1.0",
+    "wrench": "^1.5.8",
+    "charm": "^0.2.0"
+  },
+  "devDependencies": {
+    "cucumber": "^0.4.0"
+  }
+}
