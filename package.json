@@ -11,6 +11,9 @@
   "scripts": {
     "test": "./node_modules/.bin/cucumber.js"
   },
+  "bin": {
+    "ling": "bin/ling"
+  },
   "author": "Alex R. Young",
   "license": "MIT",
   "dependencies": {
